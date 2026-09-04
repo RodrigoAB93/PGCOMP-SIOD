@@ -31,7 +31,7 @@ A principal fonte de dados selecionada para o projeto é o [Financial Fraud Dete
 
 Conforme exigido pelo roteiro da atividade, a fonte de dados caracteriza-se pelos seguintes parâmetros:
 
-*   **Origem dos dados e responsável pela produção:** Gerado pelo simulador PaySim, baseado em logs reais de uma operadora móvel multinacional. Autores científicos: E. A. Lopez-Rojas, A. Elmir e S. Axelsson (2016).
+*   **Origem dos dados e responsável pela produção:** Gerado pelo simulador PaySim, baseado em logs reais de uma operadora móvel multinacional.
 *   **Forma de acesso ou obtenção:** Acesso público direto via download no repositório Kaggle (Financial Fraud Detection Dataset).
 *   **Formato e estrutura:** Formato tabular em arquivo plano CSV (valores separados por vírgula), composto originalmente por 11 colunas de atributos de natureza mista (numéricos, categóricos e strings de identificação).
 *   **Dimensão aproximada da amostra ou da base:** A base completa do PaySim no Kaggle possui **6.362.620 registros** transacionais (aproximadamente 493.53 MB). Para viabilizar os testes locais e a reprodutibilidade ágil da Atividade 01, extraímos uma amostra estratificada realista com **5.020 transações** únicas.
@@ -81,7 +81,7 @@ Abaixo, documentamos os campos considerados relevantes para apoiar a ação inte
 
 ## 6. Análise Exploratória Reproduzível
 
-Os testes práticos e diagnósticos de dados foram totalmente codificados no Jupyter Notebook **`01_exploracao_dados_fraude.ipynb`** e replicados no script independente **`01_exploracao_dados_fraude.py`** na raiz do projeto. O pipeline obedece aos critérios de reprodutibilidade científica. Os resultados consolidados da nossa amostra de 5.020 transações são detalhados abaixo:
+Os testes práticos e diagnósticos de dados foram totalmente codificados no Jupyter Notebook **`01_exploracao_dados_fraude.ipynb`** . O pipeline obedece aos critérios de reprodutibilidade científica. Os resultados consolidados da nossa amostra de 5.020 transações são detalhados abaixo:
 
 1.  **Dimensões Gerais da Amostra:** A base amostral de trabalho possui exatamente **5.020 observações (linhas)** e **11 atributos (colunas)**.
 2.  **Percentual de Valores Ausentes:** A coluna `oldbalanceOrg` registrou **1,00% de valores nulos (50 registros)**. Os demais campos estão 100% preenchidos.

@@ -8,7 +8,7 @@ Este repositório é de caráter **estritamente acadêmico** e destina-se à ent
 
 O projeto aborda cientificamente a sobreposição de finanças pessoais e profissionais de trabalhadores autônomos. A proposta investiga como técnicas de Inteligência Artificial e Processamento de Linguagem Natural (NLP) podem automatizar a separação dessas contas de forma ética e fiduciária, inspirada na literatura de engenharia de software e gestão de incertezas.
 
-*   **Problema:** Classificar descrições textuais curtas, cruas, poluídas e truncadas de extratos bancários (*bank feeds*) em perfis de gastos: **Pessoal**, **Profissional** ou **Misto**.
+*   **Problema:** Classificar descrições textuais curtas, cruas, poluídas e truncadas de extratos bancários  em perfis de gastos: **Pessoal**, **Profissional** ou **Misto**.
 
 ---
 
@@ -18,9 +18,9 @@ Seguindo rigorosamente o roteiro e os critérios de avaliação estabelecidos pa
 
 1.  **Fonte de Dados:** [`transacoes_financeiras_anonimizadas.csv`](transacoes_financeiras_anonimizadas.csv)  
     Amostra com **5.100 transações financeiras reais cruas** anonimizadas obtidas via Open Finance, contendo as anomalias, ruídos tipográficos de faturas de adquirentes e erros sistemáticos exigidos no diagnóstico de qualidade.
-2.  **Relatório Técnico de Dados:** [`atividade-01-dados-v2.md`](docs/atividade-01-dados-v2.md)   
+2.  **Relatório Técnico de Dados:** [`relatorio-atividade-01.md`](docs/atividade-01-dados-v2.md)   
     Contém o enquadramento de negócio fiduciário, caracterização detalhada da fonte, mapeamento de dores, dicionário de dados focado na decisão e a análise exploratória formal.
-3.  **Script de Análise Exploratória Standalone:** [`01_exploracao_dados.py`](01_exploracao_dados.py)  
+3.  **Script de Análise Exploratória Standalone:** [`01_exploracao_dados.ipynb`]
     Código em Python capaz de carregar a base de dados, executar testes de qualidade de forma reprodutível, aplicar um pipeline de limpeza básica via Regex e plotar estatísticas de distribuição.
 
 ---
